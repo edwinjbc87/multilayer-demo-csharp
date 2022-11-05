@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Contracts\" />
+    <None Remove="Implementations\" />
+    <None Remove="CsvHelper" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Contracts\" />
+    <Folder Include="Implementations\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sat.Recruitment.Entities\Sat.Recruitment.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="30.0.0" />
+  </ItemGroup>
+</Project>

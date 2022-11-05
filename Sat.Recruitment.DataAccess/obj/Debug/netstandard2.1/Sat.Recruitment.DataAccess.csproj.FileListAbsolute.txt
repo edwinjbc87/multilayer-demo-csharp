@@ -1,0 +1,13 @@
+/Users/edwin/WS/Sat/Sat.Recruitment.DataAccess/bin/Debug/netstandard2.1/Sat.Recruitment.DataAccess.deps.json
+/Users/edwin/WS/Sat/Sat.Recruitment.DataAccess/bin/Debug/netstandard2.1/Sat.Recruitment.DataAccess.dll
+/Users/edwin/WS/Sat/Sat.Recruitment.DataAccess/bin/Debug/netstandard2.1/Sat.Recruitment.DataAccess.pdb
+/Users/edwin/WS/Sat/Sat.Recruitment.DataAccess/bin/Debug/netstandard2.1/Sat.Recruitment.Domain.dll
+/Users/edwin/WS/Sat/Sat.Recruitment.DataAccess/bin/Debug/netstandard2.1/Sat.Recruitment.Domain.pdb
+/Users/edwin/WS/Sat/Sat.Recruitment.DataAccess/obj/Debug/netstandard2.1/Sat.Recruitment.DataAccess.csproj.AssemblyReference.cache
+/Users/edwin/WS/Sat/Sat.Recruitment.DataAccess/obj/Debug/netstandard2.1/Sat.Recruitment.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/edwin/WS/Sat/Sat.Recruitment.DataAccess/obj/Debug/netstandard2.1/Sat.Recruitment.DataAccess.AssemblyInfoInputs.cache
+/Users/edwin/WS/Sat/Sat.Recruitment.DataAccess/obj/Debug/netstandard2.1/Sat.Recruitment.DataAccess.AssemblyInfo.cs
+/Users/edwin/WS/Sat/Sat.Recruitment.DataAccess/obj/Debug/netstandard2.1/Sat.Recruitment.DataAccess.csproj.CoreCompileInputs.cache
+/Users/edwin/WS/Sat/Sat.Recruitment.DataAccess/obj/Debug/netstandard2.1/Sat.Recruitment.DataAccess.csproj.CopyComplete
+/Users/edwin/WS/Sat/Sat.Recruitment.DataAccess/obj/Debug/netstandard2.1/Sat.Recruitment.DataAccess.dll
+/Users/edwin/WS/Sat/Sat.Recruitment.DataAccess/obj/Debug/netstandard2.1/Sat.Recruitment.DataAccess.pdb

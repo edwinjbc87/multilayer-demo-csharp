@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Contracts\" />
+    <None Remove="Implementations\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Contracts\" />
+    <Folder Include="Implementations\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sat.Recruitment.Entities\Sat.Recruitment.Domain.csproj" />
+    <ProjectReference Include="..\Sat.Recruitment.DataAccess\Sat.Recruitment.DataAccess.csproj" />
+  </ItemGroup>
+</Project>

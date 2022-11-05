@@ -1,0 +1,344 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/edwin/WS/Sat/Sat.Recruitment.Test/Sat.Recruitment.Test.csproj": {}
+  },
+  "projects": {
+    "/Users/edwin/WS/Sat/Sat.Recruitment.Api/Sat.Recruitment.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/edwin/WS/Sat/Sat.Recruitment.Api/Sat.Recruitment.Api.csproj",
+        "projectName": "Sat.Recruitment.Api",
+        "projectPath": "/Users/edwin/WS/Sat/Sat.Recruitment.Api/Sat.Recruitment.Api.csproj",
+        "packagesPath": "/Users/edwin/.nuget/packages/",
+        "outputPath": "/Users/edwin/WS/Sat/Sat.Recruitment.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/edwin/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/edwin/WS/Sat/Sat.Recruitment.DataAccess/Sat.Recruitment.DataAccess.csproj": {
+                "projectPath": "/Users/edwin/WS/Sat/Sat.Recruitment.DataAccess/Sat.Recruitment.DataAccess.csproj"
+              },
+              "/Users/edwin/WS/Sat/Sat.Recruitment.Entities/Sat.Recruitment.Domain.csproj": {
+                "projectPath": "/Users/edwin/WS/Sat/Sat.Recruitment.Entities/Sat.Recruitment.Domain.csproj"
+              },
+              "/Users/edwin/WS/Sat/Sat.Recruitment.Services/Sat.Recruitment.Services.csproj": {
+                "projectPath": "/Users/edwin/WS/Sat/Sat.Recruitment.Services/Sat.Recruitment.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/edwin/WS/Sat/Sat.Recruitment.DataAccess/Sat.Recruitment.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/edwin/WS/Sat/Sat.Recruitment.DataAccess/Sat.Recruitment.DataAccess.csproj",
+        "projectName": "Sat.Recruitment.DataAccess",
+        "projectPath": "/Users/edwin/WS/Sat/Sat.Recruitment.DataAccess/Sat.Recruitment.DataAccess.csproj",
+        "packagesPath": "/Users/edwin/.nuget/packages/",
+        "outputPath": "/Users/edwin/WS/Sat/Sat.Recruitment.DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/edwin/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/edwin/WS/Sat/Sat.Recruitment.Entities/Sat.Recruitment.Domain.csproj": {
+                "projectPath": "/Users/edwin/WS/Sat/Sat.Recruitment.Entities/Sat.Recruitment.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[30.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/edwin/WS/Sat/Sat.Recruitment.Entities/Sat.Recruitment.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/edwin/WS/Sat/Sat.Recruitment.Entities/Sat.Recruitment.Domain.csproj",
+        "projectName": "Sat.Recruitment.Domain",
+        "projectPath": "/Users/edwin/WS/Sat/Sat.Recruitment.Entities/Sat.Recruitment.Domain.csproj",
+        "packagesPath": "/Users/edwin/.nuget/packages/",
+        "outputPath": "/Users/edwin/WS/Sat/Sat.Recruitment.Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/edwin/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[30.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/edwin/WS/Sat/Sat.Recruitment.Services/Sat.Recruitment.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/edwin/WS/Sat/Sat.Recruitment.Services/Sat.Recruitment.Services.csproj",
+        "projectName": "Sat.Recruitment.Services",
+        "projectPath": "/Users/edwin/WS/Sat/Sat.Recruitment.Services/Sat.Recruitment.Services.csproj",
+        "packagesPath": "/Users/edwin/.nuget/packages/",
+        "outputPath": "/Users/edwin/WS/Sat/Sat.Recruitment.Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/edwin/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/edwin/WS/Sat/Sat.Recruitment.DataAccess/Sat.Recruitment.DataAccess.csproj": {
+                "projectPath": "/Users/edwin/WS/Sat/Sat.Recruitment.DataAccess/Sat.Recruitment.DataAccess.csproj"
+              },
+              "/Users/edwin/WS/Sat/Sat.Recruitment.Entities/Sat.Recruitment.Domain.csproj": {
+                "projectPath": "/Users/edwin/WS/Sat/Sat.Recruitment.Entities/Sat.Recruitment.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/edwin/WS/Sat/Sat.Recruitment.Test/Sat.Recruitment.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/edwin/WS/Sat/Sat.Recruitment.Test/Sat.Recruitment.Test.csproj",
+        "projectName": "Sat.Recruitment.Test",
+        "projectPath": "/Users/edwin/WS/Sat/Sat.Recruitment.Test/Sat.Recruitment.Test.csproj",
+        "packagesPath": "/Users/edwin/.nuget/packages/",
+        "outputPath": "/Users/edwin/WS/Sat/Sat.Recruitment.Test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/edwin/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/edwin/WS/Sat/Sat.Recruitment.Api/Sat.Recruitment.Api.csproj": {
+                "projectPath": "/Users/edwin/WS/Sat/Sat.Recruitment.Api/Sat.Recruitment.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.2, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
